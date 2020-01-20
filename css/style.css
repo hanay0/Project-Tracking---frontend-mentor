@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    font-size: 1.125rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.intro-div{
+    width:50%;
+    float: left;
+    display: inline-block
+}
+
+
+#logo{
+    padding: 10% 0 0 25%
+}
+
+.paragraph-section{
+    width: 60%;
+    margin: 0 auto;
+    padding: 15% 0 5% 10%;
+}
+
+.paragraph-section h1{
+    width: 70%;
+    color: #242942;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3em;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+
+
+
+.paragraph-section  span{
+    color: #FFF;
+    background-color: #242942;
+    border-radius: 45%;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700
+}
+
+.paragraph-section #first-paragraph{
+        display: inline;
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        color: #ACACAE;
+        font-size: 1rem
+}
+
+.paragraph-section #last-paragraph{
+    width: 60%;
+    color: #5b5f71
+}
+
+
+
+.button-section{
+   
+    width: 70%;
+    margin: 0 auto;
+    padding: 5% 0 0 5%
+}
+
+
+
+.button-section Button {
+    position: relative;
+    left: 10%;
+	background-color:#ff5d5d;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: .1rem;
+	font-size:17px;
+	font-weight:bold;
+	padding:20px 30px;
+	text-decoration:none;
+    border: none
+}
+.button-section Button:hover {
+	background-color:#fa8787;
+}
+.button-section Button:active {
+	position:relative;
+	top:1px;
+}
+
+.button-section a{
+    position: relative;
+    left: 15%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #868686;
+    letter-spacing: .2rem;
+    font-size: .8rem
+}
+
+
+/* start the art div*/
+
+
+.art-div{
+    width:50%;
+    float: left;
+    text-align: center
+}
+
+.art-div img{
+    width: 100%;
+    position: relative;
+    top: 150px;
+}
+
+.art-div ul{
+    padding-top: 50px;
+}
+
+.art-div ul li{
+    display: inline-block;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    margin: 0 40px;
+    text-transform: uppercase;
+    
+}
+
+.art-div ul li a{
+    text-decoration: none;
+    color: #242942;
+    letter-spacing: .1rem
+} 
+
+.art-div ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.art-div .dotted-circle{
+    width: 7px;
+    height: 7px;
+    background-color: #CDD2D6;
+    border-radius: 50%
+}
+
+.art-div .login-grey{
+    color: #8E929B
+}
+
+
+
+/*the background grey div*/
+.art-background{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    height: 50%;
+    border-bottom-left-radius: 20%;
+    background-color: #EEF3F6;
+    z-index: -1
+}
